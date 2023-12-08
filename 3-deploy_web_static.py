@@ -7,7 +7,7 @@ Created on Mon Aug 13 14:21:54 2020
 from fabric.api import local, put, run, env
 from datetime import datetime
 
-env.user = 'ubuntu'
+env.user = 'vagrant'
 env.hosts = ['54.236.12.192', '54.84.7.55']
 
 
